@@ -1,1 +1,182 @@
+/* Урок 4 */
+/* ============================== */
 
+/* Завдання 1 */
+.btn:hover {
+	color: red;
+	background-color:yellow;
+}
+
+/* Завдання 2 */
+.link:hover ~ h1 {
+	background-color:green;
+}
+
+/* Завдання 3 */
+.lesson-four-task-three > .link:visited {
+	color: yellow;
+}
+
+/* Завдання 4 */
+#sidebar > .link:link {
+	color: red;
+}
+
+/* Завдання 5 */
+button.btn:active {
+	background-color: blue;
+}
+
+/* Завдання 6 */
+.lesson-four-task-six > button:focus {
+	background-color: orange;
+	color: orange;
+}
+
+/* Завдання 7 */
+#target:target {
+	background-color: green;
+	color: white;
+}
+
+/* Завдання 8 */
+input:checked ~ #target {
+	background-color: blue;
+	color: white;
+}
+
+			/* ======== варіант-1========== */
+/* Завдання 9 */
+/* p:lang(en) ~ p, */
+			/* ======== варіант-2 (2+1)========== */
+p:lang(uk){
+	color: blue;
+}
+			/* ======== варіант-3========== */
+/* p {
+	color: blue;
+} */
+/* ================== */
+/* p:lang(en){
+	color: black;
+} */
+
+/* Завдання 10 */
+			/* ======== варіант-1========== */
+/* input:enabled {
+	background-color: yellow;
+	color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-ten >form>.form-group> input:enabled {
+	background-color: yellow;
+	color: red;
+}
+
+/* Завдання 11 */
+			/* ======== варіант-1========== */
+/* input:disabled {
+	background-color: yellow;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-eleven > input:disabled {
+	background-color: yellow;
+}
+
+/* Завдання 12 */
+			/* ======== варіант-1========== */
+/* input:read-write {
+	background-color: yellow;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-twelve > input:read-write {
+	background-color: yellow;
+}
+
+/* Завдання 13 */
+			/* ======== варіант-1========== */
+/* input:read-write {
+	background-color: yellow;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-thirteen > input:read-only {
+	background-color: yellow;
+}
+
+/* Завдання 14 */
+			/* ======== варіант-1========== */
+/* input[pattern='[A-Za-z]{3}']:valid {
+	background-color: green;
+}
+input[pattern='[A-Za-z]{3}']:invalid {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-fourteen > input[pattern='[A-Za-z]{3}']:valid {
+	background-color: green;
+}
+.lesson-four-task-fourteen > input[pattern='[A-Za-z]{3}']:invalid {
+	background-color: red;
+}
+
+/* Завдання 15 */
+			/* ======== варіант-1========== */
+/* textarea:optional {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-fifteen > form > textarea:optional {
+	background-color: red;
+}
+
+/* Завдання 16 */
+			/* ======== варіант-1========== */
+/* .bg-secondary:out-of-range {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-sixteen > form > .bg-secondary:out-of-range {
+	background-color: red;
+}
+
+/* Завдання 17 */
+			/* ======== варіант-1========== */
+/* .bg-secondary:in-range {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-seventeen > form > .bg-secondary:in-range {
+	background-color: red;
+}
+
+/* Завдання 18 */
+			/* ======== варіант-1========== */
+/* input:placeholder-shown {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-eighteen > input:placeholder-shown {
+	background-color: red;
+}
+
+/* Завдання 19 */
+			/* ======== варіант-1========== */
+/* button:focus-within {
+	color:white;
+	background-color: yellow;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-nineteen > .btn-group > button:focus-within {
+	color:white;
+	background-color: yellow;
+}
+
+/* Завдання 20 */
+			/* ======== варіант-1========== */
+/* input:invalid {
+	background-color: red;
+} */
+			/* ======== варіант-2========== */
+.lesson-four-task-twenty > form > label > input:invalid {
+	background-color: red;
+}
